@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Descargas de Controladores Electrónicos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .contenedor {
+            max-width: 600px;
+            padding: 30px;
+            background: #1e293b;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+        }
+        h1 { color: #38bdf8; font-size: 24px; margin-bottom: 20px; }
+        p { font-size: 16px; line-height: 1.6; color: #cbd5e1; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Centro de Descargas de Controladores Electrónicos</h1>
+        <p>Encuentra instrucciones, archivos seguros y recursos de apoyo para mantener tu equipo actualizado.</p>
+        <a id="cta" class="btn" href="https://uplcm.com/4/11144022">VER MÁS</a>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cta = document.getElementById("cta");
+            if (cta) {
+                cta.addEventListener("click", () => {
+                    window.location.href = "https://uplcm.com/4/11144022";
+                });
+            }
+        });
+    </script>
+</body>
+</html>
